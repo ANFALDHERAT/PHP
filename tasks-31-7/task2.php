@@ -116,7 +116,7 @@ echo "<br>";
  
 $words =  array("abcd","abc","de","hjjj","g","wer");
 function getShortestLongestLength($words) {
-    $shortestLength = strlen($words[0]); // Assume the first word has the shortest length
+    $shortestLength = strlen($words[0]); 
     $longestLength = 0;
 
     foreach ($words as $word) {

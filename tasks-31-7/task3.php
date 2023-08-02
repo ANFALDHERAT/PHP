@@ -104,13 +104,8 @@ function fibonacci($n) {
     return $fibSequence;
 }
 
-// Number of elements in the Fibonacci sequence
 $length = 10;
-
-// Calculate Fibonacci sequence
 $fibonacciSequence = fibonacci($length);
-
-// Output
 echo implode(", ", $fibonacciSequence);
 echo "<br>";
  

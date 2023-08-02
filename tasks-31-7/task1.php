@@ -4,6 +4,18 @@
 // Sample Input: 2013
 // Sample Output: ‘This year is not a leap year’
 
+
+$year = 2013;
+if ($year % 400 == 0) {
+    echo $year." This year is a leap year";
+ } elseif ($year % 100 == 0) {
+    echo $year." This year is not a leap year";
+ } elseif ($year % 4 == 0) {
+    echo $year." This year is a leap year";
+ } else {
+    echo $year." This year is not a leap year";
+ };
+
 // 2.	Write a PHP script to check the season depending on the inserted temperature if the temperature is below 20, we are in winter otherwise the season is summer.
 // Sample Input: 27
 // Sample Output: ‘It is summertime!’
