@@ -1,0 +1,406 @@
+#title{
+    font-size: 40px;
+    color:#EFEAD8;
+    font-family: 'Dancing Script', cursive;
+}
+
+.navbar {
+ background-color:#464e47 !important;
+}
+
+.navbar li{
+    
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.navbar li a{
+    color: #EFEAD8;
+}
+
+
+.navbar li:hover{
+    font-size: 20px;
+    background-color: #EFEAD8 ;
+    border-radius: 20px;
+}
+#hum{
+    background-color: #EFEAD8;
+}
+
+/* slider */
+#carouselExampleCaptions {
+    height: 580px !important;
+}
+#carouselExampleCaptions img {
+    height: 580px !important;
+}
+
+.carousel-caption{
+    font-size: 40px;
+    background-color: rgba(222, 184, 135 , .5) ;
+}
+.carousel-caption h5 {
+    font-size: 45px;
+}
+
+
+
+
+
+
+/* animation of add item */
+.content h1,
+.content p {
+  transition: all 0.5s ease;
+}
+
+.content:hover h1 {
+  color: green;
+}
+
+.content:hover p {
+  font-size: 1.2em;
+}
+
+/* content */
+.content {
+    margin: 100px 0 20px 0;
+    font-family: 'Pacifico', cursive;
+    padding: 20px;
+    background-color: burlywood;
+    color: #464e47 ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+
+
+/* animation of welcome */
+.wel {
+    color: 464e47;
+    animation: myfirst 5s linear infinite alternate;
+    font-size: 50px !important;
+  }
+  
+  @keyframes myfirst {
+    0%   {color:rgb(117, 47, 47); }
+    30%  {color:burlywood;}
+    75%  {color:green;}
+    100% {color:rgb(117, 47, 47); }
+  }
+
+
+/* about */
+.flo{
+    /* border: 10px solid burlywood; */
+    background-color: rgba(222, 184, 135 , .5) ;
+    height: 550px;
+    padding: 40px;
+    text-align: center;
+    color: #464e47;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 40px;
+}
+
+.text{
+    margin-top: 50px;
+}
+
+#wel1 {
+   float: left; 
+   width: 680px;
+   margin-top: 10px;
+
+}
+#wel2 {
+    float: right; 
+    width: 680px;
+    margin-top: 10px
+}
+
+/* form */
+#form {
+    border-radius: 50px;
+    width: 80%;
+    margin: auto;
+    background-color:#464e47;
+    background-image: url('photos/s8.PNG');
+    background-size: cover;
+    background-position: center; 
+    color: #fffdf6;
+    padding: 30px 60px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+}
+.form-control {
+    width: 58% !important; 
+}
+
+.form-control:focus {
+    border: 5px solid #464e47 !important;
+    width: 60% !important; 
+    height: 4.2em;
+}
+
+
+/* botton */
+.btn{
+    background-color:#464e47 !important;
+    color: white !important;
+    font-size: 20px !important;
+    width: 200px;
+    margin: auto;
+}
+.btn:hover{
+    background-color:sienna !important;
+    font-size: 20px !important;
+}
+
+
+
+
+
+/* table */
+table {
+    border-collapse:collapse;
+    width: 80% !important;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 50px #000000;
+
+}
+.td {
+    border: 5px solid burlywood;
+    padding: 8px;  
+    background-color: burlywood;
+    color:#464e47 !important;
+    font-family: monospace !important;
+}
+
+/* footer */
+.d-flex{
+    background-color: #464e47 !important;
+    margin-bottom: 0px;
+}
+
+li a  ,ul b , p b {
+ text-decoration: none !important;
+ color: #EFEAD8 ;
+ font-size: 20px;
+}
+a{
+ text-decoration: none !important;
+
+}
+li {
+  list-style: none;  
+}
+
+#icon {
+    margin: 0 20px !important;
+}
+p b{
+    text-align: center !important;
+    font-size: 25px;
+    
+}
+.order-3 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px !important;
+}
+.order-1 {
+    margin-top: 10px !important;
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    /* slider */
+#carouselExampleCaptions {
+    height: 480px !important;
+}
+#carouselExampleCaptions img {
+    height: 480px !important;
+}
+
+
+
+
+/* about */
+.wel {
+    font-size: 40px !important;
+}
+
+.flo{
+    height: 300px;
+    padding: 5px;
+}
+
+#wel1 { 
+    width: 280px;
+    margin-top: 5px;
+    height: 280px;
+    margin-right: 20px;
+}
+ 
+#wel2 {
+    width: 280px;
+    margin-top: 5px;
+    height: 280px;
+    margin-left: 20px;
+ }
+ .text{
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+/* form */
+#form {
+    padding: 30px;
+    font-size: 20px;
+}
+.form-control {
+    width: 58% !important; 
+}
+
+
+/* botton */
+.btn{
+    font-size: 20px !important;
+    width: 150px;
+    margin: auto;
+    margin-top: 5px;
+}
+.btn:hover{
+    background-color:sienna !important;
+    font-size: 20px !important;
+}
+
+}
+
+
+@media screen and (min-width:321px)  and (max-width:480px) {
+    /* slider */
+#carouselExampleCaptions {
+    height: 480px !important;
+}
+#carouselExampleCaptions img {
+    height: 480px !important;
+}
+
+/* about */
+.wel {
+    font-size: 30px !important;
+}
+
+.flo{
+    height: 350px;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 0px;
+}
+.text {
+    margin-top: 10px;
+}
+#wel1 { 
+    display: none;
+}
+
+ 
+#wel2 {
+    display: none;
+ }
+
+.content {
+    margin: 50px 0 20px 0;
+}
+
+/* form */
+#form {
+    padding: 15px;
+    font-size: 17px;
+    width: 90%;
+    border-radius: 5px;
+}
+.form-control {
+    width: 80% !important;
+}
+
+
+/* botton */
+.btn{
+    font-size: 15px !important;
+    width: 150px;
+    margin: auto;
+    margin-top: 5px;
+}
+.btn:hover{
+    background-color:sienna !important;
+    font-size: 20px !important;
+}
+}
+
+
+@media screen and (max-width:320px) {
+    /* slider */
+#carouselExampleCaptions {
+    height: 480px !important;
+}
+#carouselExampleCaptions img {
+    height: 480px !important;
+}
+
+/* about */
+.wel {
+    font-size: 30px !important;
+}
+
+.flo{
+    height: 380px;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 0px;
+}
+.text {
+    margin-top: 10px;
+}
+#wel1 { 
+    display: none;
+}
+
+ 
+#wel2 {
+    display: none;
+ }
+
+.content {
+    margin: 50px 0 20px 0;
+}
+
+/* form */
+#form {
+    padding: 15px;
+    font-size: 17px;
+    width: 90%;
+    border-radius: 5px;
+}
+.form-control {
+    width: 80% !important;
+}
+
+
+/* botton */
+.btn{
+    font-size: 15px !important;
+    width: 150px;
+    margin: auto;
+    margin-top: 5px;
+}
+.btn:hover{
+    background-color:sienna !important;
+    font-size: 20px !important;
+}
+}
